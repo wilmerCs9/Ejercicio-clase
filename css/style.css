@@ -29,3 +29,58 @@ span {
     font-size: 50px;
 
 }
+
+#title_box {
+    color: rgb(0, 0, 184);
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px;
+    border-radius: 10px;
+    border: 3px dotted #000;
+    padding-bottom: 50px;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 50px;
+    box-shadow: 0px 0px 10px 2px #000fff;
+    -webkit-box-shadow: 20px -8px 23px 0px rgba(167, 89, 89, 0.75);
+    -moz-box-shadow: 20px -8px 23px 0px rgba(136, 29, 118, 0.75);
+    box-shadow: 20px -8px 23px 0px rgba(216, 96, 210, 0.75);
+}
+
+#box_father{
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt62c1f72f3faf5a75/615f6f8253c1047dae1e7232/60ca2df95008c9d496e6bca5ff37da04aaad86e2.jpg?auto=webp&format=pjpg&width=1080&quality=60);
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+/* #box_model {
+    background-color: orange;
+    width: 50%;
+    height: 50%;
+} */
+
+/* aplicacion de media queris */
+
+@media(min-width: 800px) and (max-width:1200px){
+    body{
+        background-color: aquamarine;
+    }
+}
+#box_model{
+    text-align: left;
+}
+
+@media (max-width: 799px){
+    body{
+        background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt62c1f72f3faf5a75/615f6f8253c1047dae1e7232/60ca2df95008c9d496e6bca5ff37da04aaad86e2.jpg?auto=webp&format=pjpg&width=1080&quality=60);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
