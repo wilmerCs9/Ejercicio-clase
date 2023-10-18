@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Style_login.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>inicio</h1>
-    <li><a href="./html/estilos.html">ir a estilos</a></li>
+    <div class="background"></div>
+   <div class="centering">
+    <form action="" class="my_form">
+        <div class="login_welcome">
+            <img src="https://th.bing.com/th/id/OIP.jXgufkp_TcAKgKpogfaDkQHaH3?pid=ImgDet&rs=1" alt="" class="login">
+            <h1>INICIAR SESION</h1>
+        </div>
+        <div class="text_field">
+            <label for="">Email</label>
+            <input type="email" id="email" name="email" aria-label="Email" placeholder="Ingrese su correo electronico" required>
+            <img src="" alt="">
+        </div>
+        <div class="text_field">
+            <label for="password">password</label>
+            <input type="text" id="password" name="password" placeholder="ingrese su credencial" required>
+            <img src="" alt="">
+        </div>
+        <input type="submit" class="my_form_button" value="Login">
+        <div class="my_form_actions">
+            <div class="my_form">
+                <span>Olvidaste tu contraseña</span>
+                <a href="#" title="Recuperar contraseña"> Recuperar contraseña</a>
+            </div>
+            <div class="my_form_signup">
+                <a href="#" title="Create Account"> Crear cuenta</a>
+            </div>
+        </div>
+    </form>
+   </div>
 </body>
 </html>
